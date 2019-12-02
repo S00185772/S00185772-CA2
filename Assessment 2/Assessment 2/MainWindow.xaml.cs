@@ -187,7 +187,7 @@ private void LbxAllActivities_Loaded(object sender, RoutedEventArgs e)
 
         private void LbxSelectedActivities_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            Activities selectedactivities = lbxAllActivities.SelectedItem as Activities;
+            Activities selectedactivities = lbxSelectedActivities.SelectedItem as Activities;
             if (selectedactivities != null)
             {
                 TxblkDescription.Text = selectedactivities.Description;
